@@ -1,8 +1,13 @@
+:root {
+    --bg: white;
+    --fg: black;
+    --red: #D72A32;
+}
 body {
   font-family: monospace;
   font-size: 100%;
-  background-color: white;
-  color: #111;
+  background-color: var(--bg);
+  color: var(--fg);
   width: 80%;
   min-width: 400px;
   min-height: 200px;
@@ -11,6 +16,11 @@ body {
   border: thin solid gray;
   border-radius: 5px;
   display: block;
+}
+
+#top {
+    background-image: url("images/circle.svg");
+    margin: auto;
 }
 
 a:link    { color: blue; text-decoration: none;      }
