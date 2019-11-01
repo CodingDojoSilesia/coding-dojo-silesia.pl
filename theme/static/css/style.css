@@ -10,6 +10,7 @@ body {
     font-family: 'Raleway', sans-serif;
     background-color: var(--bg);
     color: var(--fg);
+    font-size: 18px;
 }
 
 #top {
@@ -82,8 +83,61 @@ body {
     text-decoration: none;
 }
 
-section.red, section.red-pattern {
+#content > section {
+    width: 100%;
+}
+
+#content > section .col-2-1 {
+    vertical-align: top;
+    display: inline-block;
+    width: 450px;
+}
+
+#content > section .col-2-2 {
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 100px;
+    width: 450px;
+}
+
+#content .left {
+    text-align: left;
+}
+
+#content > section > div {
+    width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+#content > section.red {
     background-color: var(--red);
     color: var(--bg);
-    padding: 0 20px;
+}
+
+#content > section.pattern {
+    background-image: url("../images/pattern.png");
+}
+
+#content p+p {
+    margin-top: 50px;
+}
+
+#content h1 {
+    font-size: 28px;
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#content img.border {
+    border: var(--fg) 2px solid;
+}
+
+#content > section.red img.border {
+    border: var(--bg) 2px solid;
+}
+
+#content li {
+    margin-top: 50px;
 }
