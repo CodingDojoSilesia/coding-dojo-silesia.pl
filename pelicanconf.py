@@ -42,6 +42,12 @@ AUTHOR_FEED_RSS = None
 STATIC_PATHS = ['extra', 'images']
 
 LINKS = (
+    ('Coding Dojo', '#'),
+    ('Najnowsze Wydarzenia', '#'),
+    ('Poprowadź Dojo', '#'),
+    ('Mentorzy', '#'),
+    ('Zadania', '#'),
+    ('Kontakt', '#'),
 )
 
 SOCIAL = (
