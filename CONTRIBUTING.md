@@ -8,7 +8,7 @@ At first – thank you for your will to contribute, drop drills rock and small c
 - If there isn't any pull requests you can propose throught pull request any changes that you think would make this website better.
 
 ## Useful resources
-Design: https://xd.adobe.com/spec/310deb9b-f5de-4165-4c9d-3cc3627373d2-473c/
+Design: https://xd.adobe.com/spec/310deb9b-f5de-4165-4c9d-3cc3627373d2-473c/ if you prefer to work with Adobe XD file you can find it here: https://kavastudio-my.sharepoint.com/:f:/g/personal/hello_kavastudio_onmicrosoft_com/Evz87RHgHQ9Fiz4m4FVuJEsB6j5zZ0kjTfXi8n1OWMW4Sw?e=pLp5ue
 
 Font: We have replaced Mark Pro font from design to [Raleway](https://fonts.google.com/specimen/Raleway) due to licensing issues.
 
