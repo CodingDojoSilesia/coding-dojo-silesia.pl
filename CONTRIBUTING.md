@@ -1,0 +1,21 @@
+# Contribution to coding-dojo-website.pl
+
+At first – thank you for your will to contribute, drop drills rock and small changes makes our word a better place.
+
+## How can you contribute?
+
+- Look for unresolved issues, take this task and make a pull request.
+- If there isn't any pull requests you can propose throught pull request any changes that you think would make this website better.
+
+## Useful resources
+Design: https://xd.adobe.com/spec/310deb9b-f5de-4165-4c9d-3cc3627373d2-473c/
+
+Ours Slack: http://bit.ly/slack-cds
+
+Pelican docs: https://docs.getpelican.com/en/stable/
+
+## Technical questions
+Any questions about Pelican or technical details? Ask Firemark at [Github](https://github.com/firemark), [email](mailto:firemark@coding-dojo-silesia.pl) or at ours [Slack channel](http://bit.ly/slack-cds).
+
+## Design or copy questions
+If you have questions about design or content ask for Igor at [Github](https://github.com/IgorPodlawski), [email](mailto:igor@coding-dojo-silesia.pl) or at ours [Slack channel](http://bit.ly/slack-cds).
