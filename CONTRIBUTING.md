@@ -10,6 +10,8 @@ At first – thank you for your will to contribute, drop drills rock and small c
 ## Useful resources
 Design: https://xd.adobe.com/spec/310deb9b-f5de-4165-4c9d-3cc3627373d2-473c/
 
+Font: We have replaced Mark Pro font from design to [Raleway](https://fonts.google.com/specimen/Raleway) due to licensing issues.
+
 Ours Slack: http://bit.ly/slack-cds
 
 Pelican docs: https://docs.getpelican.com/en/stable/
