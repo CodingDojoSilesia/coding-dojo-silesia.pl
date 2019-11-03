@@ -14,6 +14,8 @@ Ours Slack: http://bit.ly/slack-cds
 
 Pelican docs: https://docs.getpelican.com/en/stable/
 
+Content (in Polish): https://kavastudio-my.sharepoint.com/:f:/g/personal/hello_kavastudio_onmicrosoft_com/EsPm4kENyQJBtciLQZybQIMBWFIHxhbYahOBsPNfOeHMxg?e=vGzR8C
+
 ## Technical questions
 Any questions about Pelican or technical details? Ask Firemark at [Github](https://github.com/firemark), [email](mailto:firemark@coding-dojo-silesia.pl) or at ours [Slack channel](http://bit.ly/slack-cds).
 
