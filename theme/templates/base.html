@@ -19,7 +19,7 @@
             <span>Kodu_</span>
         </h2>
     </header>
-    <nav id="menu">
+    <nav id="menu" class="menu">
         <ul>
             <li class="logo">
                 <img src="{{ SITEURL }}/theme/images/logo.png" alt="logo" />
@@ -36,11 +36,22 @@
     {% endblock %}
     </section>
     <footer id="foot">
-        <address>
-            Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
-            which takes great advantage of <a href="http://python.org">Python</a>.
-            Tutaj jeszcze walniemy firmę igora i ludzi co kodzili w htmlu
-        </address>
+        <div class="flex-row-space-around"> 
+        <nav class="menu">
+            <ul>
+                {% for title, link in LINKS %}
+                <li>
+                    <a href="{{ link }}">{{ title }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </nav>
+        <div class="info">
+            <span>framework <a href="http://getpelican.com/">Pelican</a>, </span>
+            <span>Designed by KAVA, </span>
+            <span>Coded by Firemark </span>
+        </div>
+        </div>
     </footer>
 </body>
 </html>

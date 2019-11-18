@@ -11,6 +11,7 @@ body {
     background-color: var(--bg);
     color: var(--fg);
     font-size: 18px;
+    min-height: 100vh;
 }
 
 #top {
@@ -47,23 +48,49 @@ body {
     line-height: 30px;
 }
 
-#menu {
-    margin: auto;
-    display: table;
-    border-collapse: collapse;
-    margin-top: 50px;
-    margin-bottom: 20px;
+#foot {
+    font-size: 18px;
+    background-color: var(--red);
+    color: var(--bg);
+    padding-bottom: 12px;
 }
 
-#menu ul, #menu li, #menu {
+#foot:before {
+    content: ' ';
+    display: block;
+    background-image: url("../images/red-bar.png");
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 32px;
+    position: relative;
+    top: -16px;
+    margin-top: 40px;
+}
+
+#foot .info {
+    display: flex;
+    align-items: flex-end;
+    font-size: 14px;
+}
+
+
+#menu {
+     margin: auto;
+     display: table;
+     border-collapse: collapse;
+     margin-top: 50px;
+     margin-bottom: 20px;
+}
+
+.menu ul, .menu li, .menu {
     border: var(--fg) 2px solid;
 }
 
-#menu ul {
+.menu ul {
     display: table-row;
 }
 
-#menu li {
+.menu li {
     display: table-cell;
     text-transform: uppercase;
     vertical-align: middle;
@@ -73,14 +100,26 @@ body {
     width: 145px;
 }
 
-#menu li.logo {
+.menu li.logo {
     width: 75px;
     height: 75px;
 }
 
-#menu a {
+.menu a {
     color: var(--fg);
     text-decoration: none;
+}
+
+#foot .menu li {
+    font-weight: normal;
+}
+
+#foot .menu a {
+    color: var(--bg);
+}
+
+#foot .menu ul, #foot .menu li, #foot .menu {
+    border: none;
 }
 
 #content > section {
@@ -189,6 +228,10 @@ section.red tr, section.red th, section.red td {
     border: var(--bg) 2px solid;
 }
 
+a {
+    color: var(--fg);
+}
+
 a.btn {
     display: block;
     text-transform: uppercase;
@@ -210,12 +253,10 @@ section.red a.btn {
 
 .flex-row {
     display: flex;
-    flex-direction: flex-row;
     justify-content: center;
 }
 
 .flex-row-space-around {
     display: flex;
-    flex-direction: flex-row;
     justify-content: space-around;
 }
