@@ -171,14 +171,19 @@ table {
     border-collapse: collapse;
 }
 
-tr, th, td {
+th, td {
     border: var(--fg) 2px solid;
+}
+
+td.without-border {
+    border: none;
 }
 
 td, th {
     vertical-align: center;
-    padding: 32px;
+    padding: 16px;
 }
+
 
 section.red tr, section.red th, section.red td {
     border: var(--bg) 2px solid;

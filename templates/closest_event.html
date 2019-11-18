@@ -2,16 +2,7 @@
 <div class='flex-row' >
     <table>
         <tr>
-            <th> {{ event.time | replace(",", ", <br />") }} </th>
-            <td> 
-                {% for line in EVENT_CONFIG.places[event.place] -%}
-                {{ line }} <br />
-                {%- endfor %}
-            </td>
-            <td> 
-                {% set img_url = '/images/langs/%s.png' % event.lang %}
-                <img src="{{img_url}}" alt="{{event.lang}}" />
-            </td>
+            {% include "_event.html" %}
         </tr>
     </table>
     <a class="btn" href="{{event.url}}" target="_blank">

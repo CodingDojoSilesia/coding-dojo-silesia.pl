@@ -1,0 +1,15 @@
+<div class='flex-row' >
+    <table>
+        {% for event in EVENT_CONFIG.events if event.active %}
+        <tr>
+            {% set lang_variant = "black" %}
+            {% include "_event.html" %}
+            <td class="without-border">
+                <a class="btn" href="{{event.url}}" target="_blank">
+                    Dołącz
+                </a> 
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>

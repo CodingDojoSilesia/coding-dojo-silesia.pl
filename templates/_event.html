@@ -1,0 +1,9 @@
+<th> {{ event.time | replace(",", ", <br />") }} </th>
+<td> 
+    {% for line in EVENT_CONFIG.places[event.place] -%}
+    {{ line }} <br />
+    {%- endfor %}
+</td>
+<td> 
+    <img src="/images/langs/{{event.lang}}_{{lang_variant | default('white')}}.png" alt="{{event.lang}}" />
+</td>

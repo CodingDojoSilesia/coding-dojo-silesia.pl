@@ -54,3 +54,11 @@ W trakcie coding dojo rozwiązujemy code kata. Kata w sztukach walki to pewna te
 </div>
 </section>
 
+<section markdown="1">
+<div>
+# WSZYSTKIE WYDARZENIA
+
+{% include 'active_events.html' %}
+
+</div>
+</section>

@@ -1,9 +1,16 @@
 events:
     - place: katowice
+      active: true
       time: 28 listopada, godzina 18:00
       lang: python
       url: https://www.eventbrite.com/e/coding-dojo-silesia-12k-python-edition-tickets-82570130483
     - place: gliwice
+      active: true
+      time: 21 listopada, godzina 17:00
+      lang: python
+      url: https://www.eventbrite.com/e/coding-dojo-silesia-gliwice-5g-python-edition-tickets-80478700961
+    - place: gliwice
+      active: false
       time: 21 listopada, godzina 17:00
       lang: python
       url: https://www.eventbrite.com/e/coding-dojo-silesia-gliwice-5g-python-edition-tickets-80478700961
