@@ -1,0 +1,10 @@
+<div class='flex-row-space-around' >
+    {% for partner in PARTNER_CONFIG.partners %}
+    <a href="{{partner.url}}" target="_blank">
+        <img 
+            src="/images/partners/{{partner.img_url}}"
+            alt="{{partner.fullname}}"
+        />
+    </a>
+    {% endfor %}
+</div>

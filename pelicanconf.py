@@ -42,9 +42,12 @@ PLUGINS = ['jinja2content']
 JINJA2CONTENT_TEMPLATES = ['../templates']
 STATIC_PATHS = ['extra', 'images']
 
+
 with open('content/events.yaml') as fp:
     EVENT_CONFIG = yaml_load(fp, Loader)
 
+with open('content/partners.yaml') as fp:
+    PARTNER_CONFIG = yaml_load(fp, Loader)
 
 LINKS = (
     ('Coding Dojo', '#'),

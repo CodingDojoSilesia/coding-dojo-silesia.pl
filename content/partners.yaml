@@ -1,0 +1,10 @@
+partners:
+    - img_url: jetbrains.svg
+      fullname: Jetbrains
+      url: https://www.jetbrains.com 
+    - img_url: software-things.svg
+      fullname: Software Things
+      url: https://softwarethings.pro 
+    - img_url: cc.svg
+      fullname: Clearcode
+      url: https://clearcode.pl

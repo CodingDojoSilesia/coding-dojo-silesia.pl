@@ -213,3 +213,9 @@ section.red a.btn {
     flex-direction: flex-row;
     justify-content: center;
 }
+
+.flex-row-space-around {
+    display: flex;
+    flex-direction: flex-row;
+    justify-content: space-around;
+}

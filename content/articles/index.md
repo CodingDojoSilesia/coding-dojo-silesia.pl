@@ -62,3 +62,29 @@ W trakcie coding dojo rozwiązujemy code kata. Kata w sztukach walki to pewna te
 
 </div>
 </section>
+
+<section class="red" markdown="1">
+<div>
+
+# Prowadź sam Coding dojo!
+
+<div class="col-2-1" markdown="1">
+![cds](/images/photos/3.png){: .border }
+</div>
+
+<div class="col-2-2" markdown="1">
+Chcesz zorganizować dojo w innym mieście na Śląsku, w Polsce lub w swojej firmie? Dostaniesz od nas wszystkie potrzebne materiały oraz wsparcie
+[zorganizuj <br/> dojo](?){: .btn }
+</div>
+
+</div>
+</section>
+
+<section markdown="1">
+<div>
+# PARTNERZY
+
+{% include 'partners.html' %}
+
+</div>
+</section>
