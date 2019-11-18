@@ -165,3 +165,46 @@ body {
 #content li {
     margin-top: 50px;
 }
+
+table {
+    display: table;
+    border-collapse: collapse;
+}
+
+tr, th, td {
+    border: var(--fg) 2px solid;
+}
+
+td, th {
+    vertical-align: center;
+    padding: 32px;
+}
+
+section.red tr, section.red th, section.red td {
+    border: var(--bg) 2px solid;
+}
+
+a.btn {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    width: 210px;
+    margin: 32px;
+    padding: 16px 0;
+    font-size: 20px;
+    background-color: var(--fg);
+    color: var(--bg);
+}
+
+section.red a.btn {
+    background-color: var(--bg);
+    color: var(--red);
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: flex-row;
+    justify-content: center;
+}

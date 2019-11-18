@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+from yaml import Loader, load as yaml_load
 
 AUTHOR = 'CDS Team'
 SITENAME = 'Coding Dojo Silesia'
@@ -37,9 +38,13 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-#PLUGINS = ['jinja2content']
-#JINJA2CONTENT_TEMPLATES = ['../templates']
+PLUGINS = ['jinja2content']
+JINJA2CONTENT_TEMPLATES = ['../templates']
 STATIC_PATHS = ['extra', 'images']
+
+with open('content/events.yaml') as fp:
+    EVENT_CONFIG = yaml_load(fp, Loader)
+
 
 LINKS = (
     ('Coding Dojo', '#'),
