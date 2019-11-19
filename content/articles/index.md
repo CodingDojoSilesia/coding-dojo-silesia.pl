@@ -5,17 +5,12 @@ URL:
 Save_as: index.html
 Lang: pl
 
-<section class="red" markdown="1">
-<div>
+### SECTION ###
 # Najbliższe wydarzenie
 
 {% include 'closest_event.html' %}
 
-</div>
-</section>
-
-<section markdown="1">
-<div>
+### SECTION ###
 # Co to jest Coding Dojo?
 
 <div class="col-2-1" markdown="1">
@@ -30,12 +25,7 @@ W trakcie coding dojo rozwiązujemy code kata. Kata w sztukach walki to pewna te
 [czytaj <br/> więcej](?){: .btn } 
 </div>
 
-</div>
-</section>
-
-<section class="red pattern" markdown="1">
-<div>
-
+### RED-PATTERN SECTION ###
 # Co zyskasz?
 
 <div class="col-2-1" markdown="1">
@@ -51,21 +41,12 @@ W trakcie coding dojo rozwiązujemy code kata. Kata w sztukach walki to pewna te
 ![cds](/images/photos/2.png){: .border }
 </div>
 
-</div>
-</section>
-
-<section markdown="1">
-<div>
+### SECTION ###
 # WSZYSTKIE WYDARZENIA
 
 {% include 'active_events.html' %}
 
-</div>
-</section>
-
-<section class="red" markdown="1">
-<div>
-
+### SECTION ###
 # Prowadź sam Coding dojo!
 
 <div class="col-2-1" markdown="1">
@@ -77,14 +58,7 @@ Chcesz zorganizować dojo w innym mieście na Śląsku, w Polsce lub w swojej fi
 [zorganizuj <br/> dojo](?){: .btn }
 </div>
 
-</div>
-</section>
-
-<section markdown="1">
-<div>
+### SECTION ###
 # PARTNERZY
 
 {% include 'partners.html' %}
-
-</div>
-</section>
