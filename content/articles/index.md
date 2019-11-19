@@ -21,7 +21,7 @@ Coding Dojo to spotkanie służące wspólnemu doskonaleniu umiejętności progr
 
 W trakcie coding dojo rozwiązujemy code kata. Kata w sztukach walki to pewna technika, która jest powtarzana tysiące razy przez adeptów owych dyscyplin. Pozwala ona, tak jak ćwiczenie pojedynczych ciosów, rozwijać swoje umiejętności poprzez powtarzanie tych samych sekwencji. Code kata w myśl oryginalnej idei jest ćwiczeniem polegającym na rozwiązaniu prostego zadania programistycznego w najlepszy możliwy sposób.
 
-[czytaj <br/> więcej](?){: .btn } 
+[czytaj <br/> więcej](/dojo){: .btn } 
 
 ### END COL ###
 

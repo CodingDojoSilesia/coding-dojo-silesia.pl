@@ -50,7 +50,7 @@ with open('content/partners.yaml') as fp:
     PARTNER_CONFIG = yaml_load(fp, Loader)
 
 LINKS = (
-    ('Coding Dojo', '#'),
+    ('Coding Dojo', '/dojo'),
     ('Najnowsze Wydarzenia', '#'),
     ('Poprowadź Dojo', '#'),
     ('Mentorzy', '#'),

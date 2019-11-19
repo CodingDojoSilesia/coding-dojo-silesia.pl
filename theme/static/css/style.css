@@ -182,13 +182,20 @@ body {
     background-image: url("../images/pattern.png");
 }
 
-#content p+p {
+#content p+p, #content, p+ul, #content ul+p {
     margin-top: 50px;
 }
 
 #content h1 {
     font-size: 28px;
     text-transform: uppercase;
+}
+
+#content h3 {
+    font-size: 20px;
+}
+
+#content h1, #content h2, #content h3 {
     padding-top: 40px;
     padding-bottom: 20px;
 }
@@ -199,10 +206,6 @@ body {
 
 #content > section.red img.border {
     border: var(--bg) 2px solid;
-}
-
-#content li {
-    margin-top: 50px;
 }
 
 table {
