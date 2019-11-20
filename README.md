@@ -1,4 +1,8 @@
-# CDS Site
+# Coding Dojo Silesia Website
+
+## General Project Description
+
+We are working on Coding Dojo Silesia website to spread the information about greatest event in Upper Silesia. If you want to contribute you are warmly welcomed, all details you can find at [CONTRIBUTING.md file](https://github.com/CodingDojoSilesia/coding-dojo-silesia.pl/blob/master/CONTRIBUTING.md).
 
 ## install
 
@@ -28,5 +32,3 @@ pelican --listen
 This command create a devserver on localhost:8000
 
 Warning: you still need `pelican content` command to generate content
-
-
